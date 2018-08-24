@@ -1,3 +1,5 @@
+#Reading contents from Text file and store it in Hashmap then sort in Ascending order with Hash keys
+
 with open('demofile.txt',"r") as f:
     hash = {}
     for line in f:
